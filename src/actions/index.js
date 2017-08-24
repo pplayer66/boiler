@@ -1,0 +1,1 @@
+export default (list)=> ({type: 'REORDER', payload: list});
