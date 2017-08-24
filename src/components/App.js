@@ -55,7 +55,7 @@ class App extends Component {
       return;
     }
     const items = reorder(
-      this.state.items,
+      this.props.orderedList,
       result.source.index,
       result.destination.index
     );
